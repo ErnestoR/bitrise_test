@@ -1,0 +1,11 @@
+ext.cdvMinSdkVersion = 21
+
+android {
+   lintOptions {
+       abortOnError false
+       checkReleaseBuilds false
+   }
+   defaultConfig {
+      multiDexEnabled true
+   }
+}
